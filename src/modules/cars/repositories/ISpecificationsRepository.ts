@@ -1,5 +1,5 @@
 import { ICreateSpecificationDTO } from '../dtos/ICreateSpecificationDTO';
-import { Specification } from '../model/Specification';
+import { Specification } from '../entities/Specification';
 
 interface ISpecificationsRepository {
   findByName(name: string): Specification;

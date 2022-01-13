@@ -14,6 +14,6 @@ Pelo seu terminal, escolha um local para o projeto e rode os comandos:
   $ docker-compose stop
   
   # Observar os logs do container do docker
-  $ docker logs rentx -f
+  $ docker logs rentx_node -f
 
 ```
